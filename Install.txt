@@ -1,0 +1,153 @@
+C:\Users\anjai\Anaconda3\Lib\site-packages\pandas\compat\_optional.py:138: UserWarning: Pandas requires version '2.7.0' or newer of 'numexpr' (version '2.6.9' currently installed).
+  warnings.warn(msg, UserWarning)
+>>> print(wr.__version__)
+2.16.0
+>>>
+>>>
+>>> wr.
+wr.athena         wr.config         wr.exceptions     wr.opensearch     wr.redshift       wr.sts
+wr.catalog        wr.data_api       wr.lakeformation  wr.oracle         wr.s3             wr.timestream
+wr.chime          wr.dynamodb       wr.mysql          wr.postgresql     wr.secretsmanager
+wr.cloudwatch     wr.emr            wr.neptune        wr.quicksight     wr.sqlserver
+>>> wr.
+
+
+C:\Users\anjai>pip install awswrangler
+Collecting awswrangler
+  Downloading https://files.pythonhosted.org/packages/f2/7c/dd44f7008edc65730643f356c266da30c4c277240c3eb54dea5a8db833d2/awswrangler-2.16.0-py3-none-any.whl (258kB)
+    100% |████████████████████████████████| 266kB 136kB/s
+Collecting pg8000<2.0.0,>=1.20.0 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/23/6c/f2e8a438691d9ff1a2a22d453edbefcf2e9c230682c6c4e4969f750d0468/pg8000-1.29.1-py3-none-any.whl
+Collecting opensearch-py<2.0.0,>=1.0.0 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/74/fd/59f57eaa83cf765a504d9cebdb99d1c9057c1987dc69fc5be61b6b756fa7/opensearch_py-1.1.0-py2.py3-none-any.whl (207kB)
+    100% |████████████████████████████████| 215kB 1.0MB/s
+Collecting jsonpath-ng<2.0.0,>=1.5.3 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/4c/b7/3627068d9aa6b2d49af117eb3897770a5dbc6bb3f4c09ed56a9eb749438e/jsonpath_ng-1.5.3-py3-none-any.whl
+Requirement already satisfied: botocore<2.0.0,>=1.23.17 in c:\users\anjai\anaconda3\lib\site-packages (from awswrangler) (1.23.26)
+Collecting pymysql<2.0.0,>=1.0.0 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/4f/52/a115fe175028b058df353c5a3d5290b71514a83f67078a6482cff24d6137/PyMySQL-1.0.2-py3-none-any.whl (43kB)
+    100% |████████████████████████████████| 51kB 172kB/s
+Collecting pandas<2.0.0,>=1.2.0 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/b2/56/f886ed6f1777ffa9d54c6e80231b69db8a1f52dcc33f5967b06a105dcfe0/pandas-1.3.5-cp37-cp37m-win_amd64.whl (10.0MB)
+    100% |████████████████████████████████| 10.0MB 1.7MB/s
+Collecting redshift-connector<2.1.0,>=2.0.889 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/47/90/415b21f7765c9f51f0ced590f8d00494ebc90ec85f1568c3bda704b5e5b1/redshift_connector-2.0.907-py3-none-any.whl (109kB)
+    100% |████████████████████████████████| 112kB 4.6MB/s
+Collecting requests-aws4auth<2.0.0,>=1.1.1 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/6a/e7/631559b2f2b8e07729e70eb265166eebe28739d97d42d422a501ae54a2ca/requests_aws4auth-1.1.2-py2.py3-none-any.whl
+Collecting backoff<3.0.0,>=1.11.1 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/3b/59/fbcbf9bdce46bc7a3ce6af140dadff9f9c8bd1a641e49ee0f1bfd21f830b/backoff-2.1.2-py3-none-any.whl
+Collecting progressbar2<5.0.0,>=4.0.0 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/e8/e7/a823e2c141d50930814af22fb3350b696b190318c7722055971be8519467/progressbar2-4.0.0-py2.py3-none-any.whl
+Collecting numpy<2.0.0,>=1.21.0 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/97/9f/da37cc4a188a1d5d203d65ab28d6504e17594b5342e0c1dc5610ee6f4535/numpy-1.21.6-cp37-cp37m-win_amd64.whl (14.0MB)
+    100% |████████████████████████████████| 14.0MB 1.0MB/s
+Collecting openpyxl<3.1.0,>=3.0.0 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/7b/60/9afac4fd6feee0ac09339de4101ee452ea643d26e9ce44c7708a0023f503/openpyxl-3.0.10-py2.py3-none-any.whl (242kB)
+    100% |████████████████████████████████| 245kB 502kB/s
+Requirement already satisfied: boto3<2.0.0,>=1.20.17 in c:\users\anjai\anaconda3\lib\site-packages (from awswrangler) (1.21.36)
+Collecting pyarrow<7.1.0,>=2.0.0 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/9d/fe/a16add73cdb106328ee84b17f690b86484e4b5966ab82fe5eb4bad1054b9/pyarrow-7.0.0-cp37-cp37m-win_amd64.whl (16.0MB)
+    100% |████████████████████████████████| 16.0MB 1.6MB/s
+Collecting gremlinpython<4.0.0,>=3.5.2 (from awswrangler)
+  Downloading https://files.pythonhosted.org/packages/a2/b8/f202fe67a0f5a538a1d8a3cd5e7dc5f8aa8def03b44032fe1beabc45dc37/gremlinpython-3.6.0-py2.py3-none-any.whl (72kB)
+    100% |████████████████████████████████| 81kB 2.7MB/s
+Requirement already satisfied: importlib-metadata>=1.0; python_version < "3.8" in c:\users\anjai\anaconda3\lib\site-packages (from pg8000<2.0.0,>=1.20.0->awswrangler) (1.7.0)
+Collecting scramp>=1.4.1 (from pg8000<2.0.0,>=1.20.0->awswrangler)
+  Downloading https://files.pythonhosted.org/packages/27/31/80bfb02ba2daa9a0ca66f82650c411f1a2b21ce85164408f57e99aab4e4e/scramp-1.4.1-py3-none-any.whl
+Requirement already satisfied: urllib3<2,>=1.21.1 in c:\users\anjai\anaconda3\lib\site-packages (from opensearch-py<2.0.0,>=1.0.0->awswrangler) (1.26.9)
+Requirement already satisfied: certifi in c:\users\anjai\anaconda3\lib\site-packages (from opensearch-py<2.0.0,>=1.0.0->awswrangler) (2019.3.9)
+Requirement already satisfied: ply in c:\users\anjai\anaconda3\lib\site-packages (from jsonpath-ng<2.0.0,>=1.5.3->awswrangler) (3.8)
+Requirement already satisfied: six in c:\users\anjai\anaconda3\lib\site-packages (from jsonpath-ng<2.0.0,>=1.5.3->awswrangler) (1.15.0)
+Requirement already satisfied: decorator in c:\users\anjai\anaconda3\lib\site-packages (from jsonpath-ng<2.0.0,>=1.5.3->awswrangler) (4.4.0)
+Requirement already satisfied: jmespath<1.0.0,>=0.7.1 in c:\users\anjai\anaconda3\lib\site-packages (from botocore<2.0.0,>=1.23.17->awswrangler) (0.10.0)
+Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in c:\users\anjai\anaconda3\lib\site-packages (from botocore<2.0.0,>=1.23.17->awswrangler) (2.8.0)
+Requirement already satisfied: pytz>=2017.3 in c:\users\anjai\anaconda3\lib\site-packages (from pandas<2.0.0,>=1.2.0->awswrangler) (2018.9)
+Requirement already satisfied: beautifulsoup4<5.0.0,>=4.7.0 in c:\users\anjai\anaconda3\lib\site-packages (from redshift-connector<2.1.0,>=2.0.889->awswrangler) (4.7.1)
+Requirement already satisfied: packaging in c:\users\anjai\anaconda3\lib\site-packages (from redshift-connector<2.1.0,>=2.0.889->awswrangler) (19.0)
+Requirement already satisfied: requests<2.27.2,>=2.23.0 in c:\users\anjai\anaconda3\lib\site-packages (from redshift-connector<2.1.0,>=2.0.889->awswrangler) (2.25.1)
+Collecting lxml>=4.6.5 (from redshift-connector<2.1.0,>=2.0.889->awswrangler)
+  Downloading https://files.pythonhosted.org/packages/bf/c7/aeaabfd91e88fdc467cf53760beea0fadc872f823d7dd5786614e70bbfdf/lxml-4.9.0-cp37-cp37m-win_amd64.whl (3.6MB)
+    100% |████████████████████████████████| 3.6MB 2.5MB/s
+Collecting python-utils>=3.0.0 (from progressbar2<5.0.0,>=4.0.0->awswrangler)
+  Downloading https://files.pythonhosted.org/packages/47/ea/07bd92aa551bcb8a994d59b9daaff39085ed268464dd9e2e041a6927e41f/python_utils-3.3.3-py2.py3-none-any.whl
+Requirement already satisfied: et-xmlfile in c:\users\anjai\anaconda3\lib\site-packages (from openpyxl<3.1.0,>=3.0.0->awswrangler) (1.0.1)
+Requirement already satisfied: s3transfer<0.6.0,>=0.5.0 in c:\users\anjai\anaconda3\lib\site-packages (from boto3<2.0.0,>=1.20.17->awswrangler) (0.5.2)
+Collecting nest-asyncio (from gremlinpython<4.0.0,>=3.5.2->awswrangler)
+  Downloading https://files.pythonhosted.org/packages/be/1e/a83058de46b40a392bdefcaac44d1d42db4bf8562cb68c95d6bae4b93276/nest_asyncio-1.5.5-py3-none-any.whl
+Requirement already satisfied: isodate<1.0.0,>=0.6.0 in c:\users\anjai\anaconda3\lib\site-packages (from gremlinpython<4.0.0,>=3.5.2->awswrangler) (0.6.0)
+Collecting aenum<4.0.0,>=1.4.5 (from gremlinpython<4.0.0,>=3.5.2->awswrangler)
+  Downloading https://files.pythonhosted.org/packages/38/bd/2c911f3ff06b34e90639058e84a5b198447e24b9ff386984da365bea6964/aenum-3.1.11-py3-none-any.whl (131kB)
+    100% |████████████████████████████████| 133kB 2.4MB/s
+Collecting aiohttp<=3.8.1,>=3.8.0 (from gremlinpython<4.0.0,>=3.5.2->awswrangler)
+  Downloading https://files.pythonhosted.org/packages/19/22/7a9ea2992cf7adf534eb51f7b6bfd4642bb15894ac36df4edb0838ee1fdb/aiohttp-3.8.1-cp37-cp37m-win_amd64.whl (551kB)
+    100% |████████████████████████████████| 552kB 794kB/s
+Requirement already satisfied: zipp>=0.5 in c:\users\anjai\anaconda3\lib\site-packages (from importlib-metadata>=1.0; python_version < "3.8"->pg8000<2.0.0,>=1.20.0->awswrangler) (3.4.0)
+Collecting asn1crypto>=1.4.0 (from scramp>=1.4.1->pg8000<2.0.0,>=1.20.0->awswrangler)
+  Downloading https://files.pythonhosted.org/packages/c9/7f/09065fd9e27da0eda08b4d6897f1c13535066174cc023af248fc2a8d5e5a/asn1crypto-1.5.1-py2.py3-none-any.whl (105kB)
+    100% |████████████████████████████████| 112kB 961kB/s
+Requirement already satisfied: soupsieve>=1.2 in c:\users\anjai\anaconda3\lib\site-packages (from beautifulsoup4<5.0.0,>=4.7.0->redshift-connector<2.1.0,>=2.0.889->awswrangler) (1.8)
+Requirement already satisfied: pyparsing>=2.0.2 in c:\users\anjai\anaconda3\lib\site-packages (from packaging->redshift-connector<2.1.0,>=2.0.889->awswrangler) (2.3.1)
+Requirement already satisfied: idna<3,>=2.5 in c:\users\anjai\anaconda3\lib\site-packages (from requests<2.27.2,>=2.23.0->redshift-connector<2.1.0,>=2.0.889->awswrangler) (2.8)
+Requirement already satisfied: chardet<5,>=3.0.2 in c:\users\anjai\anaconda3\lib\site-packages (from requests<2.27.2,>=2.23.0->redshift-connector<2.1.0,>=2.0.889->awswrangler) (3.0.4)
+Requirement already satisfied: multidict<7.0,>=4.5 in c:\users\anjai\anaconda3\lib\site-packages (from aiohttp<=3.8.1,>=3.8.0->gremlinpython<4.0.0,>=3.5.2->awswrangler) (5.1.0)
+Collecting aiosignal>=1.1.2 (from aiohttp<=3.8.1,>=3.8.0->gremlinpython<4.0.0,>=3.5.2->awswrangler)
+  Downloading https://files.pythonhosted.org/packages/3b/87/fe94898f2d44a93a35d5aa74671ed28094d80753a1113d68b799fab6dc22/aiosignal-1.2.0-py3-none-any.whl
+Requirement already satisfied: yarl<2.0,>=1.0 in c:\users\anjai\anaconda3\lib\site-packages (from aiohttp<=3.8.1,>=3.8.0->gremlinpython<4.0.0,>=3.5.2->awswrangler) (1.6.3)
+Collecting frozenlist>=1.1.1 (from aiohttp<=3.8.1,>=3.8.0->gremlinpython<4.0.0,>=3.5.2->awswrangler)
+  Downloading https://files.pythonhosted.org/packages/c3/7c/1232ac7502f1fe7630b91a9a922641b46cb0c3994c64da5030289a0cbc51/frozenlist-1.3.0-cp37-cp37m-win_amd64.whl
+Requirement already satisfied: attrs>=17.3.0 in c:\users\anjai\anaconda3\lib\site-packages (from aiohttp<=3.8.1,>=3.8.0->gremlinpython<4.0.0,>=3.5.2->awswrangler) (20.3.0)
+Collecting asynctest==0.13.0; python_version < "3.8" (from aiohttp<=3.8.1,>=3.8.0->gremlinpython<4.0.0,>=3.5.2->awswrangler)
+  Downloading https://files.pythonhosted.org/packages/e8/b6/8d17e169d577ca7678b11cd0d3ceebb0a6089a7f4a2de4b945fe4b1c86db/asynctest-0.13.0-py3-none-any.whl
+Requirement already satisfied: typing-extensions>=3.7.4; python_version < "3.8" in c:\users\anjai\anaconda3\lib\site-pac>>> import awswrangler as wr
+C:\Users\anjai\Anaconda3\Lib\site-packages\pandas\compat\_optional.py:138: UserWarning: Pandas requires version '2.7.0' or newer of 'numexpr' (version '2.6.9' currently installed).
+  warnings.warn(msg, UserWarning)
+>>> print(wr.__version__)
+2.16.0
+>>>
+>>>
+>>> wr.
+wr.athena         wr.config         wr.exceptions     wr.opensearch     wr.redshift       wr.sts
+wr.catalog        wr.data_api       wr.lakeformation  wr.oracle         wr.s3             wr.timestream
+wr.chime          wr.dynamodb       wr.mysql          wr.postgresql     wr.secretsmanager
+wr.cloudwatch     wr.emr            wr.neptune        wr.quicksight     wr.sqlserver
+>>> wr.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Uninstalling lxml-4.3.2:
+      Successfully uninstalled lxml-4.3.2
+  Found existing installation: openpyxl 2.6.1
+    Uninstalling openpyxl-2.6.1:
+      Successfully uninstalled openpyxl-2.6.1
+  Found existing installation: async-timeout 3.0.1
+    Uninstalling async-timeout-3.0.1:
+      Successfully uninstalled async-timeout-3.0.1
+  Found existing installation: aiohttp 3.7.4.post0
+    Uninstalling aiohttp-3.7.4.post0:
+      Successfully uninstalled aiohttp-3.7.4.post0
+Successfully installed aenum-3.1.11 aiohttp-3.8.1 aiosignal-1.2.0 asn1crypto-1.5.1 async-timeout-4.0.2 asynctest-0.13.0 awswrangler-2.16.0 backoff-2.1.2 charset-normalizer-2.1.0 frozenlist-1.3.0 gremlinpython-3.6.0 jsonpath-ng-1.5.3 lxml-4.9.0 nest-asyncio-1.5.5 numpy-1.21.6 openpyxl-3.0.10 opensearch-py-1.1.0 pandas-1.3.5 pg8000-1.29.1 progressbar2-4.0.0 pyarrow-7.0.0 pymysql-1.0.2 python-utils-3.3.3 redshift-connector-2.0.907 requests-aws4auth-1.1.2 scramp-1.4.1
+
+C:\Users\anjai>python
+Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32
+
+Warning:
+This Python interpreter is in a conda environment, but the environment has
+not been activated.  Libraries may fail to load.  To activate this environment
+please see https://conda.io/activation
+
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
